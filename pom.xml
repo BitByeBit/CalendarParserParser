@@ -49,8 +49,9 @@
             <version>5.2.0</version>
         </dependency>
     </dependencies>
-
+    <packaging>jar</packaging>
     <build>
+        <finalName>calendar-parser-parser</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
